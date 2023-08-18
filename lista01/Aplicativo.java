@@ -33,10 +33,16 @@ public class Aplicativo {
         // vetSomaVizinhos = exercicio2.somaValoresVizinhos(vet3);
         // exercicio2.imprimeVet(vetSomaVizinhos);
 
-        // EXERCICIO 3
-        Exercicio03 exercicio3 = new Exercicio03();
+        // // EXERCICIO 3
+        // Exercicio03 exercicio3 = new Exercicio03();
 
-        exercicio3.obterMedidas();
-        exercicio3.imprimeRetangulo();
+        // exercicio3.obterMedidas();
+        // exercicio3.imprimeRetangulo();
+
+        // EXERCICIO 4
+        Exercicio04 exercicio4 = new Exercicio04();
+
+        exercicio4.exibirFraseInvertida();
+
     }
 }
