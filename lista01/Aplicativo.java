@@ -12,6 +12,17 @@ public class Aplicativo {
         System.out.println(
                 "4 - Leia uma frase e mostre-a invertida na tela. Apos mostrar a primeira frase, o programa deve ler e imprimir outra, assim fazendo ate que o usuario digite a palavra \"fim\"");
         System.out.println("13 - O que é um método em um código de um sistema de informação?");
+        System.out.println(
+                "05 - Um estudante muito organizado esta matriculado em N disciplinas, e dispoe de um total semanal de H horas e M minutos para estudar. Divide o tempo disponivel igualmente para as N disciplinas e distribui o tempo de descanso que sobrar nas pausas entre as disciplinas.");
+        System.out.println("6 - Leia os premios da loteria federal e retorne O vencedor da organizacao");
+        System.out.println("7 - Multiplique um número de dois dígitos por 11");
+        System.out.println("8 - Verifica se uma data é válida");
+        System.out.println(
+                "9 - Sabendo que 1o de janeiro de 2024 sera uma segunda feira, escreva um metodo que receba uma data e diga em qual dia da semana esta data acontecera em 2024");
+        System.out.println("10 - exercicio 02 refeito com leitura de arquivos");
+        System.out.println("11 - exercicio 08 refeito com leitura de arquivos");
+        System.out.println("12 - exercicio 04 refeito com leitura de arquivos");
+        System.out.println("13 - Exercícios 13 a 17");
     }
 
     private static void escolherPrograma(int op) throws Exception {
@@ -137,6 +148,9 @@ public class Aplicativo {
     }
 
     private static void exercicio09() {
+        Exercicio09 exercicio9 = new Exercicio09();
+
+        exercicio9.exibeDataValida();
     }
 
     private static void exercicio10() {
@@ -163,5 +177,7 @@ public class Aplicativo {
             escolherPrograma(op);
 
         } while (op != -1);
+
+        sc.close();
     }
 }
