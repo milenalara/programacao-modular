@@ -45,7 +45,7 @@ public class Exercicio08 {
         }
     }
 
-    public void exibeDataValida() throws Exception {
+    public void exibeDataValida() {
         informaData();
         formataData(data);
         verificaDataValida();

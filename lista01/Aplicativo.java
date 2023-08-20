@@ -57,9 +57,6 @@ public class Aplicativo {
             case 12:
                 exercicio12();
                 break;
-            case 13:
-                exercicio13();
-                break;
             default:
                 break;
         }
@@ -133,7 +130,7 @@ public class Aplicativo {
         exercicio7.exibeResultado();
     }
 
-    private static void exercicio08() throws Exception {
+    private static void exercicio08() {
         Exercicio08 exercicio8 = new Exercicio08();
         exercicio8.exibeDataValida();
 
@@ -149,11 +146,6 @@ public class Aplicativo {
     }
 
     private static void exercicio12() {
-    }
-
-    public static void exercicio13() {
-        System.out.println("13 – O que é um método em um código de um sistema de informação?" +
-                "\n\nRESPOSTA: É uma função ou procedimento, ou seja, um trecho de código que é encapsulado e nomeado, e pode ser invocado repetidas vezes chamando seu nome. As fuções retornam valores, enquanto os procedimentos não.");
     }
 
     public static void main(String[] args) throws Exception {
