@@ -133,7 +133,10 @@ public class Aplicativo {
         exercicio7.exibeResultado();
     }
 
-    private static void exercicio08() {
+    private static void exercicio08() throws Exception {
+        Exercicio08 exercicio8 = new Exercicio08();
+        exercicio8.exibeDataValida();
+
     }
 
     private static void exercicio09() {
