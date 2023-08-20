@@ -127,7 +127,10 @@ public class Aplicativo {
         exercicio6.exibeNumeroVencedor();
     }
 
-    private static void exercicio07() {
+    private static void exercicio07() throws Exception {
+        Exercicio07 exercicio7 = new Exercicio07();
+
+        exercicio7.exibeResultado();
     }
 
     private static void exercicio08() {
