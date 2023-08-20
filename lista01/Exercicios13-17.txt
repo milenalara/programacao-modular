@@ -16,7 +16,10 @@ EXEMPLO: Um praticante realiza uma série de exercícios em sua academia a cada 
 RESP: Cada entidade praticante pode ter um vetor ou lista estática com os dias da semana (que é um dado conhecido e imutável). Cada dia da semana conterá uma fila de exercícios a serem feitos, assumindo que a ordem deles é importante.
 
 b) Uma oficina mecânica realiza diversos serviços em automóveis. Cada automóvel pode ter recebido muitos serviços ao longo de sua existência. Um automóvel está sempre associado a um proprietário, que pode ser pessoa física ou jurídica (empresa).
-RESPOSTA:
+RESPOSTA: Tanto a lista de proprietários quanto a de serviços pode ser uma lista encadeada, já que o seu tamanho não é possível de ser predeterminado com antecedência.
 
 c) Um candidato possui uma série de habilidades para se candidatar a vagas de emprego. Cada vaga tem suas habilidades específicas exigidas e deve possuir um conjunto de candidatos hábeis, destacando aquele que for mais adequado para a vaga no momento.
-d) Um posto de saúde atende a milhares de pacientes. O posto tem um calendário anual de vacinação e cada paciente possui um prontuário com as vacinas tomadas, incluindo seu nome, lote e data de aplicaçã
+RESPOSTA: 
+
+
+d) Um posto de saúde atende a milhares de pacientes. O posto tem um calendário anual de vacinação e cada paciente possui um prontuário com as vacinas tomadas, incluindo seu nome, lote e data de aplicação
