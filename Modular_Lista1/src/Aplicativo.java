@@ -36,27 +36,6 @@ public class Aplicativo {
             case 5:
                 exercicio05();
                 break;
-            case 6:
-                exercicio06();
-                break;
-            case 7:
-                exercicio07();
-                break;
-            case 8:
-                exercicio08();
-                break;
-            case 9:
-                exercicio09();
-                break;
-            case 10:
-                exercicio10();
-                break;
-            case 11:
-                exercicio11();
-                break;
-            case 12:
-                exercicio12();
-                break;
             case 13:
                 exercicio13();
                 break;
@@ -119,30 +98,6 @@ public class Aplicativo {
 
         exercicio5.informaDados();
         exercicio5.exibePlanoDeEstudos();
-    }
-
-    public static void exercicio06() throws Exception {
-        Exercicio06 exercicio6 = new Exercicio06();
-
-        exercicio6.exibeNumeroVencedor();
-    }
-
-    private static void exercicio07() {
-    }
-
-    private static void exercicio08() {
-    }
-
-    private static void exercicio09() {
-    }
-
-    private static void exercicio10() {
-    }
-
-    private static void exercicio11() {
-    }
-
-    private static void exercicio12() {
     }
 
     public static void exercicio13() {
